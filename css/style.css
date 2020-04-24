@@ -121,20 +121,15 @@ header{
 .about_discrption{
     padding: 0 6rem;
 }
-
-.resume{
-    text-decoration: none;
-    padding: .3rem 1rem;
-    letter-spacing: 1px;
-    background: var(--highlight-color);
-    color: #eee;
-    box-shadow: rgba(204, 194, 194, 0.329) -1px 1px 0,
-    rgba(204, 194, 194, 0.329) -3px 3px 0,
-    rgba(204, 194, 194, 0.329) -4px 4px 0,
-    rgba(204, 194, 194, 0.329) -5px 5px 0,
-    rgba(204, 194, 194, 0.329) -6px 6px 0,
-    rgba(204, 194, 194, 0.329) -7px 7px 0;
-    font-weight: bold;
+.about_discrption #img {
+    position: relative;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    border: 15px solid transparent;
+    z-index: 9999;
 }
 
 
@@ -147,9 +142,8 @@ header{
 margin-bottom: 1rem;
 }
 .skill_heading{
-  text-decoration: underline;
-  font-size: 1.3rem;
-  color: rgba(0, 0, 0, .6)
+    color: var(--secondary-color);
+    display: inline-block;
 }
 
 .skills_polygon{
@@ -410,7 +404,11 @@ a{
 }
 
 .margin_bottom__4r{ margin-bottom: .5rem;}
-.margin_bottom__3r{ margin-bottom: 3rem;}
+.margin_bottom__3r{ 
+    background: #fc2e64;;
+    padding: .4rem 1rem;
+    transform: skew(-20deg);
+}
 .margin_bottom__2r{ margin-bottom: 2rem;}
 
 .margin_bt__2re{margin: 2rem 0;}
@@ -540,4 +538,5 @@ a{
 
 
 
-}
+} 
+
